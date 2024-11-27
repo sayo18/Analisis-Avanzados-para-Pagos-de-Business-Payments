@@ -7,8 +7,47 @@ Este proyecto tiene como objetivo analizar un conjunto de datos relacionados con
 El enfoque principal es explorar y limpiar los datos, realizar un análisis exploratorio y aplicar modelos predictivos 
 para extraer insights sobre el comportamiento de los usuarios y las métricas clave.
 
-## Estructura del Proyecto
 
+## **Duración**  
+Del 19 al 27 de noviembre  
+
+## **Equipo**  
+- Chris  
+- Manu  
+- Breysi  
+
+## **Planificación del Proyecto**  
+
+### **Día 1: Preparación**  
+Comenzamos revisando el dataset para entender su estructura, identificar las columnas clave y detectar posibles problemas de calidad. Definimos los objetivos del análisis y diseñamos una metodología clara para crear las cohortes y calcular las métricas necesarias. Además, configuramos el entorno de trabajo en Python, asegurándonos de que las librerías principales como Pandas, Matplotlib y Seaborn estén listas para usar. Por último, creamos un repositorio en GitHub para facilitar la colaboración en equipo.  
+
+### **Día 2: Análisis Exploratorio de Datos**  
+Realizamos un análisis exploratorio inicial para conocer mejor los datos. Esto incluye generar estadísticas descriptivas básicas, como medias y distribuciones, y visualizar patrones a través de gráficos para detectar posibles tendencias o anomalías. Durante esta fase también identificamos problemas específicos, como valores faltantes o datos inconsistentes, que podrían afectar el análisis. 
+
+### **Día 3: Análisis de Calidad de Datos**  
+En esta etapa evaluamos la calidad del dataset, buscando valores nulos, duplicados y formatos inconsistentes. Implementamos técnicas de limpieza para corregir estos problemas, asegurándonos de que los datos sean fiables para el análisis. Por último, validamos los resultados de la limpieza mediante visualizaciones actualizadas y comparaciones estadísticas.
+
+### **Días 4 y 5: Análisis de Cohortes y Cálculo de Métricas**  
+Aquí definimos las cohortes agrupando a los usuarios según el mes de su primera transacción. Calculamos las métricas clave, como la frecuencia de transacciones, el porcentaje de usuarios que abandonan el servicio y los ingresos generados por cada cohorte. Cada miembro del equipo trabajó en una sección específica del análisis, integrando el trabajo en GitHub mediante pull requests y revisiones colaborativas. 
+
+### **Día 6: Visualización y Generación de Insights**  
+Diseñamos gráficos que muestran de manera clara y atractiva la evolución de las métricas clave en cada cohorte. A partir de estos gráficos, extraemos insights relevantes sobre el comportamiento de los usuarios y el rendimiento del servicio. Documentamos estas observaciones para incluirlas en los entregables finales. 
+
+### **Día 7: Revisión**  
+Redactamos observaciones y recomendaciones basadas en los resultados obtenidos. Finalizamos el archivo README.md para que incluya todos los apartados importantes, como la introducción, la metodología utilizada, los resultados obtenidos y las conclusiones finales del análisis.
+
+### **Día 8: Entrega Final**  
+Realizamos una revisión conjunta del repositorio en GitHub, asegurándonos de que el código, la documentación y las visualizaciones estén organizados y actualizados. Finalmente, entregamos el proyecto junto con una presentación que resume los hallazgos clave y las recomendaciones.
+
+
+## **Colaboración y Uso de GitHub**  
+Durante todo el proyecto utilizamos GitHub como herramienta principal para la colaboración. Cada integrante trabajó en ramas independientes, subiendo su código mediante pull requests. Estos cambios fueron revisados por el equipo antes de integrarse en la rama principal. Esto aseguró una integración fluida y mantuvo la calidad del código en todo momento.
+
+---
+
+# **Análisis de Cohortes para los Pagos**
+
+## Estructura del Proyecto
 
 ### 1. Preparación y Exploración Inicial
 - Revisión de los datos para comprender la estructura y el contenido de las columnas.
