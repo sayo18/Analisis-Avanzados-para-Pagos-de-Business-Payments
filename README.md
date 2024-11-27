@@ -132,6 +132,20 @@ Si queremos hacer un plan de fidelizacion nos tenemos que fijar en la gente a la
 
 Para las IDs que se han borrado tenemos unos valores no muy alejados de los que mantienen cuenta. Se han borrado la cuenta incluso despues de haber usado la app casi tanto como la gente que sigue con cuenta.
 
+#### Segmentación de clientes con cuentas vigentes
+
+![image](https://github.com/user-attachments/assets/e262feec-c70c-4297-9f18-c97bbd994fe6)
+
+De acuerdo al monto total que haya realizado un clientes, puede ser asignado a "Basico", "Bronce", "Premium" o "Platinum". Entonces podemos observar que el cliente con user_id 1946 ha realizado un monto de 1100, es el cliente con mayor monto.
+
+#### Segmentación de clientes que han eliminado su cuenta
+
+![image](https://github.com/user-attachments/assets/6260af64-5453-4511-a5b5-aa76d1beb1c9)
+
+Revisamos qué tipo de cliente eran los clientes que han eliminado su cuenta, para poder analizar si eran clientes potenciales.
+En la siguiente imagen observamos que de los 417 usuarios que elimaron su cuenta, había un total de 73 usuario que eran "Platinum", lo cual eran clientes potenciales.
+
+![image](https://github.com/user-attachments/assets/55e22c7c-a5a9-463e-b680-c36878fce878)
 
 
 ### 3. Modelado Predictivo
