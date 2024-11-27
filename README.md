@@ -153,20 +153,15 @@ En la siguiente imagen observamos que de los 417 usuarios que elimaron su cuenta
 - Búsqueda de hiperparámetros para optimizar el rendimiento del modelo.
 - Evaluación de resultados mediante una matriz de confusión.
 
-### 4. Documentación y Presentación
-- Resumen de hallazgos y resultados obtenidos durante el análisis.
-- Organización del código y documentación en un entorno reproducible.
 
 ## Conclusiones Principales
 - Se identificaron patrones clave en las solicitudes de adelanto de efectivo y las tasas de incidentes.
 - El modelo de clasificación logró categorizar correctamente un porcentaje significativo de las solicitudes.
 - Las cohortes definidas proporcionaron insights sobre la evolución temporal de las métricas clave.
 
-## Visualización de Resultados
-A continuación, se muestran ejemplos de visualizaciones generadas durante el análisis:
-
-- Matriz de confusión para evaluar la precisión del modelo de clasificación.
-- Gráficos de líneas y barras que ilustran el comportamiento de las cohortes a lo largo del tiempo.
+## Consideraciones a futuro
+- Respecto a los potenciales clientes que han borrado su cuenta podríamos haber estudiado la fee asociada a cada una de sus transacciones para tener el total de dinero que la empresa ha 'perdido' por el hecho de que estos clientes han borrado su cuenta. Suponemos que el 5 de las fees en un porcentaje y, por tanto, hay que aplicarlo a cada fee para ver el beneficio de la empresa.
+- Con el modelo que hemos entrenado podriamos haber rellenado los datos faltantes de las IDs que se han borrado la cuenta con los valores más probables de retirada de efectivo para fechas concretas y ver cuanto más se ha perdido por no hacer una buena fidelizacion.
 
 ## Requisitos
 - Python 3.x
