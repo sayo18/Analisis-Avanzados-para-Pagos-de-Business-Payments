@@ -148,10 +148,58 @@ En la siguiente imagen observamos que de los 417 usuarios que elimaron su cuenta
 ![image](https://github.com/user-attachments/assets/55e22c7c-a5a9-463e-b680-c36878fce878)
 
 
-### 3. Modelado Predictivo
-- Implementación de modelos de clasificación utilizando RandomForestClassifier.
-- Búsqueda de hiperparámetros para optimizar el rendimiento del modelo.
-- Evaluación de resultados mediante una matriz de confusión.
+## 3. Modelado Predictivo
+
+En este apartado se implementó un modelo de clasificación utilizando `RandomForestClassifier` para predecir el comportamiento de las clases objetivo. Además, se llevó a cabo la búsqueda de hiperparámetros para optimizar el rendimiento del modelo.
+
+### Implementación del Modelo
+Se utilizó un bosque aleatorio con 300 árboles (`n_estimators=300`) y se fijó una semilla (`random_state=42`) para reproducibilidad. La profundidad de los árboles no se limitó para permitir una mayor flexibilidad.
+
+![Random Forest Model](https://github.com/user-attachments/assets/c1cc78ef-49ff-48ce-bb42-7210a4d1b27a)
+
+---
+
+### Evaluación de Resultados
+
+#### 1. **Precisión (Accuracy)**
+La métrica de precisión mide el porcentaje de predicciones correctas. Es una medida global que indica el rendimiento general del modelo.
+
+![Accuracy](https://github.com/user-attachments/assets/1386fa65-2425-46f6-ba97-1a5dc474175b)
+
+#### 2. **Reporte de Clasificación (Classification Report)**
+Este informe proporciona las métricas de precisión, recall y F1-score para cada clase. Es útil para evaluar cómo el modelo maneja los diferentes tipos de errores.
+
+![Classification Report](https://github.com/user-attachments/assets/4ff6b6f3-1da2-4adf-b013-46d1f66061c6)
+
+#### 3. **Matriz de Confusión**
+La matriz de confusión muestra el número de predicciones correctas e incorrectas desglosadas por clase, proporcionando una visión detallada de los errores cometidos.
+
+![Matriz de Confusión](https://github.com/user-attachments/assets/3080b519-b1f1-4f1e-804b-f2d1835c1df4)
+
+---
+
+### Análisis de Características Importantes
+
+#### 4. **Importancia de las Características**
+La importancia de las características muestra qué variables fueron más influyentes en las predicciones del modelo.
+
+![Importancia de Características 1](https://github.com/user-attachments/assets/0f3570ac-ec6b-4a24-a2b8-34381b34a6d0)
+![Importancia de Características 2](https://github.com/user-attachments/assets/2b652337-b70d-48e4-ba41-5daf20103b0b)
+
+---
+
+### Predicciones y Resultados
+
+#### 5. **Predicciones Realizadas**
+Aquí se muestra un ejemplo de las predicciones realizadas por el modelo sobre los datos de prueba.
+
+![Predicciones](https://github.com/user-attachments/assets/d7b88bdd-eb75-4ead-bbd6-6d341e3485a5)
+
+---
+
+### Conclusión
+El modelo Random Forest mostró un buen desempeño al clasificar las clases objetivo, optimizado mediante la búsqueda de hiperparámetros y evaluado con métricas clave como precisión, matriz de confusión e importancia de las características. Los resultados indican que el modelo es capaz de capturar patrones significativos en los datos, lo que lo convierte en una herramienta útil para tareas predictivas similares.
+
 
 
 ## Conclusiones Principales
