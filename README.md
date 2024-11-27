@@ -9,10 +9,49 @@ para extraer insights sobre el comportamiento de los usuarios y las métricas cl
 
 ## Estructura del Proyecto
 
+
 ### 1. Preparación y Exploración Inicial
 - Revisión de los datos para comprender la estructura y el contenido de las columnas.
 - Análisis exploratorio para identificar estadísticas descriptivas, patrones y posibles outliers.
 - Análisis temporal para observar distribuciones basadas en fechas.
+
+Haciendo un .info del df encontramos que deberia tener una columna de 'reason' Filled only if the CR was manually reviewed and rejected. That's the rejection's reason displayed in-app.
+![image](https://github.com/user-attachments/assets/e4a5f6b0-700b-4f1a-b373-9fc4a12678e3)
+
+
+Pero no parece existir
+
+En status no aparecen los valores: 'approved', 'money_sent', 'pending', 'waiting_user_confirmation','waiting reimbursement', 'active'
+
+
+cash_request_debited_date no aparece
+
+![download](https://github.com/user-attachments/assets/f50b8314-4b56-4054-893f-401bdd887f7a)
+
+![download](https://github.com/user-attachments/assets/83e01227-0dfa-41d1-abf4-9079ceeddf4d)
+
+
+Aquí vemos que la mayoría de montos que se retiran son de 100, 25 y 50, tanto para cash request instantaneos como regulares. Esto parece sugerir que los montos se han colocado artificialmente, ya que no dependen de ningún tipo ed fee. Como podemos en la siguiente grafica todos los fees, excepto 1 son de 5.
+
+![download](https://github.com/user-attachments/assets/602c804b-d4c0-4798-8838-35b08013eb73)
+
+Suponemos que el valor de 5 es un porcentaje y no valor absoluto ya que no tiene sentido cobrar la misma comisión a un monto de 25 que de 100.
+
+
+![download](https://github.com/user-attachments/assets/69423d1d-135b-40d5-8467-091228ec8c15)
+
+Al analizar los valores vacios y rellenos del df vemos que las columnas user_id y deleted_account_id son complementarias.
+
+![download](https://github.com/user-attachments/assets/c128e283-ec82-433f-b64b-53d35d7468a8)
+
+vemos también, analizando la columna status, que basicamente solo existen 2 tipos de status: 'rejected', para CR que se han rechazado y 'money_back' para operaciones que se han realizado con exito.
+
+![download](https://github.com/user-attachments/assets/fd166687-978a-4da8-95b1-a6d571b36c65)
+![download](https://github.com/user-attachments/assets/73d69464-ec0d-4216-853b-77a1ff7bf231)
+![image](https://github.com/user-attachments/assets/0dc0c01b-01aa-49e7-ace5-b5bc6dfe802e)
+
+
+Para campaña de marketing las franjas mas interesantes son de martes a jueves por las mañas y las tardes. Sería interesante como ingreso pasivo mostrar anuncios en estas franjas.
 
 ### 2. Limpieza y Preprocesamiento de los Datos
 - Identificación y manejo de valores faltantes, duplicados e inconsistencias.
