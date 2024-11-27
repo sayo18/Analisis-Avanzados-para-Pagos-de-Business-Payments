@@ -92,20 +92,35 @@ vemos también, analizando la columna status, que basicamente solo existen 2 tip
 
 Para campaña de marketing las franjas mas interesantes son de martes a jueves por las mañas y las tardes. Sería interesante como ingreso pasivo mostrar anuncios en estas franjas.
 
-### 2. Limpieza y Preprocesamiento de los Datos
-- Identificación y manejo de valores faltantes, duplicados e inconsistencias.
-- Estandarización de formatos y creación de cohortes basadas en fechas clave.
+![image](https://github.com/user-attachments/assets/7670a8db-3fc3-434a-8735-466e32224d8d)
 
-### 3. Análisis de Métricas
+
+### 2. Análisis de Métricas
 - Cálculo de métricas como la frecuencia de uso del servicio, tasas de incidentes y generación de ingresos.
 - Visualización de las métricas a lo largo del tiempo mediante gráficos y diagramas.
 
-### 4. Modelado Predictivo
+  ![image](https://github.com/user-attachments/assets/eccf7b65-87ab-4d0a-b1a1-0f1138830441)
+
+  Vemos como en diciembre tenemos la mayor retirada. Esto tiene sentido ya que en navidad se retira mucho efectivo para comprar regalos. Tambien durante el verano tenemos un pico, dado que la gente se va de vacaciones. Octubre es un mes raro ya que hay valores muy altos sin aparente explicacion. Una posibilidad es Halloween.
+
+  ![image](https://github.com/user-attachments/assets/72595c51-0be5-4b6d-b201-6678d4c6915a)
+
+
+Vemos que en octubre tenemos el pico de usuarios nuevos en la app. 
+
+![image](https://github.com/user-attachments/assets/6df98127-94f2-443e-a543-9b0346914cd8)
+
+Vemos que hay unas 200 personas que repiten el CR para octubre.
+
+![download](https://github.com/user-attachments/assets/26547440-497f-4aa2-a4fc-96c27f6d2cf4)
+
+
+### 3. Modelado Predictivo
 - Implementación de modelos de clasificación utilizando RandomForestClassifier.
 - Búsqueda de hiperparámetros para optimizar el rendimiento del modelo.
 - Evaluación de resultados mediante una matriz de confusión.
 
-### 5. Documentación y Presentación
+### 4. Documentación y Presentación
 - Resumen de hallazgos y resultados obtenidos durante el análisis.
 - Organización del código y documentación en un entorno reproducible.
 
