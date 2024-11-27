@@ -41,7 +41,7 @@ Realizamos una revisión conjunta del repositorio en GitHub, asegurándonos de q
 
 
 ## **Colaboración y Uso de GitHub**  
-Durante todo el proyecto utilizamos GitHub como herramienta principal para la colaboración. Cada integrante trabajó en ramas independientes, subiendo su código mediante pull requests. Estos cambios fueron revisados por el equipo antes de integrarse en la rama principal. Esto aseguró una integración fluida y mantuvo la calidad del código en todo momento.
+Durante todo el proyecto utilizamos GitHub como herramienta principal para la colaboración. Cada integrante trabajó en ramas independientes, subiendo su código mediante pull requests. Estos cambios fueron revisados por el equipo antes de integrarse en la rama principal.
 
 ---
 
