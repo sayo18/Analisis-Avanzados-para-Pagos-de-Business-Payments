@@ -114,6 +114,25 @@ Vemos que hay unas 200 personas que repiten el CR para octubre.
 
 ![download](https://github.com/user-attachments/assets/26547440-497f-4aa2-a4fc-96c27f6d2cf4)
 
+#### Análisis del top 5 de usuarios que más monto de efectivo han solicitado
+
+![image](https://github.com/user-attachments/assets/0bbc4249-502f-4d69-b198-a02d9cb99840)
+
+Vemos el top 5 de IDs que más retirada de efectivo han hecho, que oscila entre 15-19, pero en la columna de operaciones rechazadas vemos que la mayoria se han rechazado y unas pocas aceptadas, por lo que no los podemos considerar 'buenos' clientes.
+
+![image](https://github.com/user-attachments/assets/ad132e92-1b3d-421d-8fa5-9f04cec83002)
+
+Para las cuentas que se han borrado tenemos lo mismo. No parece haber una relacion entre las cuentas borradas y el total de operaciones rechazadas.
+
+![image](https://github.com/user-attachments/assets/97a95f0c-0fac-4dd8-893c-3e5d9c53a9ea)
+
+Si queremos hacer un plan de fidelizacion nos tenemos que fijar en la gente a la que sí se le han aceptado las peticiones (suponemos por simplicidad que esto pasas cuando la transaccion tiene el status money_back). Así obtenemos un top 10 de clientes a los que habría que hacer un seguimiento si queremos hacer un plan de fidelización.
+
+![image](https://github.com/user-attachments/assets/9cc50261-7d87-46b5-ad0f-b0360260e1b9)
+
+Para las IDs que se han borrado tenemos unos valores no muy alejados de los que mantienen cuenta. Se han borrado la cuenta incluso despues de haber usado la app casi tanto como la gente que sigue con cuenta.
+
+
 
 ### 3. Modelado Predictivo
 - Implementación de modelos de clasificación utilizando RandomForestClassifier.
