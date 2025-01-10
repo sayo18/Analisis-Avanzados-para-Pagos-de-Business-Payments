@@ -12,8 +12,7 @@ para extraer insights sobre el comportamiento de los usuarios y las métricas cl
 Del 19 al 27 de noviembre  
 
 ## **Equipo**  
-- Chris  
-- Manu  
+- Chris   
 - Breysi  
 
 ## **Planificación del Proyecto**  
